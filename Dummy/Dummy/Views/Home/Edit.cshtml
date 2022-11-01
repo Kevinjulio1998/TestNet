@@ -1,0 +1,31 @@
+﻿@model IEnumerable<Dummy.Domain.Dtos.ContactInformationDtoView>
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Tipo de contacto
+            </th>
+            <th>
+                contacto
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Type)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Contact)
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,10 @@
+C:\Users\KEVIN ANDRES JULIO\source\repos\Dummy\Dummy.Domain\bin\Debug\netcoreapp3.1\Dummy.Domain.deps.json
+C:\Users\KEVIN ANDRES JULIO\source\repos\Dummy\Dummy.Domain\bin\Debug\netcoreapp3.1\Dummy.Domain.dll
+C:\Users\KEVIN ANDRES JULIO\source\repos\Dummy\Dummy.Domain\bin\Debug\netcoreapp3.1\Dummy.Domain.pdb
+C:\Users\KEVIN ANDRES JULIO\source\repos\Dummy\Dummy.Domain\obj\Debug\netcoreapp3.1\Dummy.Domain.csproj.AssemblyReference.cache
+C:\Users\KEVIN ANDRES JULIO\source\repos\Dummy\Dummy.Domain\obj\Debug\netcoreapp3.1\Dummy.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\KEVIN ANDRES JULIO\source\repos\Dummy\Dummy.Domain\obj\Debug\netcoreapp3.1\Dummy.Domain.AssemblyInfoInputs.cache
+C:\Users\KEVIN ANDRES JULIO\source\repos\Dummy\Dummy.Domain\obj\Debug\netcoreapp3.1\Dummy.Domain.AssemblyInfo.cs
+C:\Users\KEVIN ANDRES JULIO\source\repos\Dummy\Dummy.Domain\obj\Debug\netcoreapp3.1\Dummy.Domain.csproj.CoreCompileInputs.cache
+C:\Users\KEVIN ANDRES JULIO\source\repos\Dummy\Dummy.Domain\obj\Debug\netcoreapp3.1\Dummy.Domain.dll
+C:\Users\KEVIN ANDRES JULIO\source\repos\Dummy\Dummy.Domain\obj\Debug\netcoreapp3.1\Dummy.Domain.pdb

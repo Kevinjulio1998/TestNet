@@ -1,0 +1,5 @@
+INSERT INTO TypeContact
+VALUES
+  ('Telefono'), 
+  ('Correo Electronico'), 
+  ('Direccion fisica')

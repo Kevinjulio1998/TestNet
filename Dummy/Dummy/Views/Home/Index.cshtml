@@ -1,0 +1,64 @@
+﻿@model IEnumerable<Dummy.Domain.Models.People>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<style>
+    .container 
+    {
+        display: table  !important;
+    }
+</style>
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Crear nueva persona</a>
+</p>
+<table id="tablePeople" class="table">
+    <thead>
+    <tr>
+        <th scope="col">Documento</th>
+        <th scope="col">Nombre completo</th>
+        <th scope="col">Apellidos</th>
+        <th scope="col">Fecha de nacimiento</th>
+        <th scope="col">Ver Contactos</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in  Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Document)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FullName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LastName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateBirth)
+            </td>
+            <td>
+                <button type="button" id="valuedata" value="/Home/Edit/?id=@item.Id" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                    Ver Contacto
+                </button>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
+<div class="modal fade" id="ModalEdit" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            </div>
+            <div class="modal-body">
+                ...
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>

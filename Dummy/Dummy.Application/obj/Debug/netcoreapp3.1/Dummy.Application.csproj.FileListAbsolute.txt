@@ -1,0 +1,13 @@
+C:\Users\KEVIN ANDRES JULIO\source\repos\Dummy\Dummy.Application\bin\Debug\netcoreapp3.1\Dummy.Application.deps.json
+C:\Users\KEVIN ANDRES JULIO\source\repos\Dummy\Dummy.Application\bin\Debug\netcoreapp3.1\Dummy.Application.dll
+C:\Users\KEVIN ANDRES JULIO\source\repos\Dummy\Dummy.Application\bin\Debug\netcoreapp3.1\Dummy.Application.pdb
+C:\Users\KEVIN ANDRES JULIO\source\repos\Dummy\Dummy.Application\obj\Debug\netcoreapp3.1\Dummy.Application.csproj.AssemblyReference.cache
+C:\Users\KEVIN ANDRES JULIO\source\repos\Dummy\Dummy.Application\obj\Debug\netcoreapp3.1\Dummy.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\KEVIN ANDRES JULIO\source\repos\Dummy\Dummy.Application\obj\Debug\netcoreapp3.1\Dummy.Application.AssemblyInfoInputs.cache
+C:\Users\KEVIN ANDRES JULIO\source\repos\Dummy\Dummy.Application\obj\Debug\netcoreapp3.1\Dummy.Application.AssemblyInfo.cs
+C:\Users\KEVIN ANDRES JULIO\source\repos\Dummy\Dummy.Application\obj\Debug\netcoreapp3.1\Dummy.Application.csproj.CoreCompileInputs.cache
+C:\Users\KEVIN ANDRES JULIO\source\repos\Dummy\Dummy.Application\obj\Debug\netcoreapp3.1\Dummy.Application.dll
+C:\Users\KEVIN ANDRES JULIO\source\repos\Dummy\Dummy.Application\obj\Debug\netcoreapp3.1\Dummy.Application.pdb
+C:\Users\KEVIN ANDRES JULIO\source\repos\Dummy\Dummy.Application\bin\Debug\netcoreapp3.1\Dummy.Domain.dll
+C:\Users\KEVIN ANDRES JULIO\source\repos\Dummy\Dummy.Application\bin\Debug\netcoreapp3.1\Dummy.Domain.pdb
+C:\Users\KEVIN ANDRES JULIO\source\repos\Dummy\Dummy.Application\obj\Debug\netcoreapp3.1\Dummy.Application.csproj.CopyComplete

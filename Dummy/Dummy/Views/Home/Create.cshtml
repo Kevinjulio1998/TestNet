@@ -1,0 +1,73 @@
+﻿@model Dummy.Domain.Dtos.PeopleDto
+
+@{
+    ViewData["Title"] = "Create";
+}
+<header>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+</header>
+<style>
+    div#contacto {
+        display: flex;
+    }
+</style>
+<body>
+<div class="row">
+    <div class="col-md-12">
+        <form  method="post" asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label class="control-label"> Documento</label>
+                <input id="document" type="number" asp-for="Document" class="form-control" required="true"/>
+
+                <span asp-validation-for="Document" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label"> Nombre Completo</label>
+                <input id="fullname" asp-for="FullName" class="form-control" required="true" />
+                <span asp-validation-for="FullName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label"> Apellidos</label>
+                <input id="lastname" asp-for="LastName" class="form-control"  required="true"/>
+                <span asp-validation-for="LastName" class="text-danger"></span>
+            </div>
+            
+            <div class="form-group">
+                <label for="State">Tipo de contacto</label>
+                <select id="select" class="form-control" asp-for="TypeContactId"
+                        asp-items="@(new SelectList(Model.TypeContact, "Id", "Description"))"></select>
+                <span asp-validation-for="TypeContactId" class="text-danger"></span>
+            </div>
+            <label class="control-label"> Contacto</label>
+            <secion class="contact">
+            <div class="form-group" id="contacto">
+                <input id="dato" asp-for="Contact" class="form-control" />
+                <span asp-validation-for="Contact" class="text-danger"></span>
+                <button  type="button" class="btn btn-primary"  type="button" onclick="Operations()">+</button>
+            </div>
+            </secion>
+            <table id="myTable" class="table table-hover">
+                <thead>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+
+            <div class="form-group">
+                <label class="control-label"> Fecha de nacimiento</label>
+                <input asp-for="DateBirth"  type="date" class="form-control" />
+                <span asp-validation-for="DateBirth" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+</body>
+
